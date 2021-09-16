@@ -42,11 +42,26 @@ describe('this tests all items higher than the threshold' , function()
     it('should return products that have quantity higher than the threshold.' , function(){
         
         assert.deepEqual(results, findItemsOver(itemList, 20));
+        // assert.deepEqual(results2, findItemsOver(itemList2, 20));
+        // assert.deepEqual(results3, findItemsOver(itemList3, 20));
+        
+    });
+
+    it('should return products that have quantity higher than the threshold.' , function(){
+        
+        // assert.deepEqual(results, findItemsOver(itemList, 20));
         assert.deepEqual(results2, findItemsOver(itemList2, 20));
+        // assert.deepEqual(results3, findItemsOver(itemList3, 20));
+        
+        
+    });
+
+    it('should return products that have quantity higher than the threshold.' , function(){
+        
+        // assert.deepEqual(results, findItemsOver(itemList, 20));
+        // assert.deepEqual(results2, findItemsOver(itemList2, 20));
         assert.deepEqual(results3, findItemsOver(itemList3, 20));
         
-
- 
         
     });
 
